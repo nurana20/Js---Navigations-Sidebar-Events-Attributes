@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.tab-menu{
+    width: 100vw;
+    border: 1px solid;
+    border: none;
+    height: 500px;
+    border-radius: 10px;
+    background-color:rgba(255, 127, 80, 0.315);
+}
+.tab-menu .coffeename .cofeadlari{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    width: 100vw;
+    height: 50px;
+    border: 1px solid black;
+    column-gap: 200px;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 0px;
+    cursor: pointer;
+}
+.tab-menu .coffeename .cofeadlari li{
+    border: 1px solid grey;
+    border-top: none;
+    border-bottom: none;
+    font-size: large;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tab-menu .coffeename .cofeadlari li:hover{
+    background-color: rgba(128, 128, 128, 0.167);
+}
+.tab-menu .cofe img{
+    width: 200px;
+    height: 200px;
+}
+.tab-menu .cofe{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.none{
+    display: none;
+}
+.active{
+    display: initial;
+}
+.tab-menu .cofe a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: large;
+    text-decoration: none;
+}

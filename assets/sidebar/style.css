@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    height: 100vh;
+    background-color: rgb(104, 100, 100);
+    width: 400px;
+    position: relative;
+}
+.move{
+    transition: all 0.5s;
+    transform: translateX(-360px);
+}
+.light{
+    background-color: yellow;
+}
+.deletebutton{
+    width: 60px;
+    position: absolute;
+    height: 30px;
+    top: 20px;
+    cursor: pointer;
+    right:1px;
+}
+.deletebutton:hover{
+    background-color: gray;
+}
+.burger{
+    width: 60px;
+    position: absolute;
+    height: 30px;
+    top: 20px;
+    cursor: pointer;
+    right:1px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.left-side{
+    margin: auto;
+}
+.productmanager{
+    color: white;
+}
+.name{
+    color: white;
+}
+.avarage h1{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.avarage ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+.avarage ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 30px;
+    list-style-type: none;
+}
+.avarage ul li p{
+    font-weight:900;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.avarage ul li p:hover{
+    color: yellow;
+}
+.avarage ul li img{
+    width: 60px;
+    cursor: pointer;
+    height: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.footer .help{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    align-items: center;
+}
+.footer img{
+    width: 60px;
+    cursor: pointer;
+    height: 30px;
+}
+.footer .logout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+}
+.footer p{
+    cursor: pointer;
+    font-weight:900;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer p:hover{
+    color: yellow;
+}
+.open{
+    display: none;
+}

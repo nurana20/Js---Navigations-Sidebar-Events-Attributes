@@ -1,0 +1,15 @@
+let deleteButton=document.querySelector(".deletebutton")
+let sideBar=document.querySelector(".sidebar")
+let burgerIcon=document.querySelector(".burger")
+deleteButton.addEventListener("click",function(){
+    deleteButton.classList.add("open")
+    burgerIcon.classList.remove("open")
+    sideBar.classList.add("move")
+    document.querySelector("body").classList.add("light")
+})
+burgerIcon.addEventListener("click",function(){
+    deleteButton.classList.remove("open")
+    burgerIcon.classList.add("open")
+    sideBar.classList.remove("move")
+    document.querySelector("body").classList.remove("light")
+})

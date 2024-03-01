@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 300px;
+    position: relative;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(181, 146, 213);
+}
+.move{
+    transform: translateZ(200px);
+    transition: all 1s;
+    top: -70px;
+}
+.left-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+}
+.apple{
+    width: 100px;
+    cursor: pointer;
+    height: 30px;
+}
+.search{
+    width: 150px;
+    height: 30px;
+    border: none;
+    padding-left: 20px;
+}
+.orta{
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+    padding: 400px;
+}
+.orta li{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.orta li:hover{
+    color: grey;
+}
+
+.seaarch{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+    top: 30px;
+}
+.xbutton{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    right: -20px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.xbutton:hover{
+    background-color: rgba(128, 128, 128, 0.329);
+}
+.burger{
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    right: -20px;
+    bottom: 5px;
+    cursor: pointer;
+}
+.none{
+    display: none;
+}

@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.footerbar{
+    width: 100vw;
+    height: 300px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
+    background-color: rgba(0, 255, 255, 0.348);
+    
+}
+.move{
+    transition: all 0.5s;
+    transform: translateY(280px);
+}
+.number{
+    font-weight: 900;
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.visamain{
+    display: flex;
+    flex-direction: row;
+}
+.visa{
+    width:60px;
+    height: 20px;
+}
+.first-side ul li{
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.first-side ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-top: 60px;
+    padding-left: 150px;
+}
+.second-side ul li{
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.second-side ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-top: 60px;
+}
+.thirst-side ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 20px;
+}
+.thirst-side ul li{
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fourth-side ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-top: 20px; 
+}
+.fourth-side ul li{
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.last-side p{
+    padding-top: 20px; 
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.icons img{
+    width: 50px;
+    padding-top: 30px;
+    height: 30px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.asagi{
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    right: 35px;
+    top: 0px;
+    cursor: pointer;
+}
+.yuxari{
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    right: 35px;
+    top: 0px;
+    cursor: pointer;
+}
+.none{
+    display: none;
+}
